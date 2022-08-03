@@ -19,6 +19,10 @@ Develop a mini web-app consist of two pages
 2. Import db/lms.sql into your DB
 3. Change constants according to your environment
 
+### Test User
+Login: `test`  
+Password: `1`  
+
 ### Start
 
 http://<YOUR_HOSTNAME>/login.html - start page
