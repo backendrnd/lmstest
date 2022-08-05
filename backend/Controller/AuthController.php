@@ -8,12 +8,10 @@ use Lms\Model\ApiUserModel;
 class AuthController extends Controller
 {
     function actionDelete() {
-        if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
-            session_start();
-            $_SESSION = [];
-            session_write_close();
-            exit(0);
-        }
+        session_start();
+        $_SESSION = [];
+        session_write_close();
+        exit(0);
     }
 
     function actionPost() {
