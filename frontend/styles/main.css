@@ -3,11 +3,14 @@ body {
     height: 100%;
 }
 
+#__next {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     display: flex;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
     background-color: #F6F6F6;
 }
 
@@ -25,7 +28,7 @@ body {
     border-color: #DB7B3A;
     box-shadow: 0 0 0 0.2rem rgba(219, 123, 58, 0.25);
     color: #DB7B3A;
- }
+}
 
 button.btn-primary {
     background-color: #f58b45;
@@ -40,16 +43,6 @@ button.btn-primary:hover {
     background-color: #C3C3C3;
     color: black;
     border-color: #C3C3C3;
-}
-
-.rounded-left {
-    border-radius: 50rem 0 0 50rem !important;
-    border-right-width: 0 !important;
-}
-
-.rounded-right {
-    border-radius: 0 50rem 50rem 0 !important;
-    border-left-width: 0 !important;
 }
 
 .icon-username {
@@ -129,4 +122,7 @@ button.btn-primary:hover {
 .error-text {
     position: absolute;
     max-width: 480px;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
 }
