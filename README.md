@@ -24,6 +24,6 @@ You may also create `.env.local` file with this variable
 Login: `test`  
 Password: `1`  
 
-### Start
+### DEMO
 
-http://<YOUR_HOSTNAME>/ - start page
+http://lms-front.mewteam.com
