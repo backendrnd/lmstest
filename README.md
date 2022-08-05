@@ -8,7 +8,7 @@ Develop a mini web-app consist of two pages
 
 You may also create `.env.local` file with this variable
 
-### Constants [index.php]
+###  Environment variables (backend)
 
 **LMS_DB_DSN**:  database to be used when performing queries, example: `mysql:host=127.0.0.1;dbname=lms`   
 **LMS_DB_USERNAME**: DB user name  

@@ -3,7 +3,6 @@ require __DIR__ . '/autoloader.php';
 
 use Lms\Middleware\CorsMiddleware;
 use Lms\Helpers\Response;
-use Lms\Database\Database;
 
 CorsMiddleware::process();
 

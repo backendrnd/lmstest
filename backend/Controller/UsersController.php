@@ -30,8 +30,6 @@ class UsersController extends Controller
         if (($page < 1) || ($page > $maxPage)) {
             $page = 1;
         }
-        $offset = ($page-1)*USERS_PER_PAGE;
-        $rowCount = USERS_PER_PAGE;
 
         $users = $userModel->getUsers($page, USERS_PER_PAGE);
 
